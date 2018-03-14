@@ -1,5 +1,5 @@
 
-# Heroku Buildpack for WordPress
+# Wordpress on Heroku ... here how you can do it too..
 
 [![WordPress](https://raw.githubusercontent.com/ajaykumar127/PardotMaster/181a15d0a6dcc44dcd5083e2b01be762100579b4/heroku%2Bwordpress.png)](https://github.com/ajaykumar127/PardotMaster)
 
