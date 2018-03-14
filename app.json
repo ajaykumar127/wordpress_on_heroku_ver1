@@ -1,0 +1,51 @@
+{
+	"name": "Wordpress Buildpack by Ajay",
+	"description": "Deploy your favorite CMS on Heroku using our WordPress buildpack.",
+	"repository": "https://github.com/ajaykumar127/PardotMaster",
+	"logo": "https://d1qb2nb5cznatu.cloudfront.net/users/1226641-medium_jpg?1464928629",
+	"keywords": ["wordpress", "heroku", "php", "postgresql", "apache", "apache2", "nginx"],
+	"addons": ["heroku-postgresql:hobby-dev","newrelic:wayne","sendgrid:starter"],
+    "env": {
+		"AWS_ACCESS_KEY_ID": {
+			"description": "Your AWS Access key to grant this application access to a S3 bucket.",
+			"value":"AWS Access Key"
+		},
+       "AWS_SECRET_ACCESS_KEY": {
+         "description": "The secret part of your AWS access key.",
+         "value": "Secret Access Key"
+       },
+	   "AUTH_KEY": {
+		   "description": "Salt for your app",
+		      "generator": "secret"
+			  },
+	   "SECURE_AUTH_KEY": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "LOGGED_IN_KEY": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "NONCE_KEY": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "AUTH_SALT": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "SECURE_AUTH_SALT": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "LOGGED_IN_SALT": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "NONCE_SALT": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  }
+   }	   
+}
+
